@@ -1,0 +1,26 @@
+<snippet>
+	<content>
+		<![CDATA[
+<?xml version="1.0"?><!DOCTYPE pdf PUBLIC "-//big.faceless.org//report" "report-1.1.dtd">
+<pdf>
+	<head>
+		<style type="text/css">
+			${2:/*Enter your styling here*/}
+		</style>
+	</head>
+
+	<body>
+
+		<table>
+			${1:<!--Start here-->}
+		</table>
+
+	</body>	
+</pdf>
+
+		]]>
+	
+</content>
+	<tabTrigger>nspdf</tabTrigger>
+	<descriptiion>Netsuite PDF Template</descriptiion>
+</snippet>

@@ -1,0 +1,25 @@
+<snippet>
+	<content>
+		<![CDATA[
+/**
+ *@NApiVersion ${1:2.x}
+ *@NScriptType ${2:ClientScript}
+ */
+
+define ( [$3] ,
+
+    function($4) {
+
+        function ${5:functionName} (${6:arguments}) {
+            $7
+        }
+
+        return {
+            ${8:entryPointName}: ${9:entryPointFunctionName}
+        };   
+});
+	]]>
+	</content>
+	<tabTrigger>nscrpt</tabTrigger>
+	<description>SuiteScript 2.0</description>
+</snippet>
